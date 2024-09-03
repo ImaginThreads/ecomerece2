@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+  
+  #root, #__next {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+  }
+  
+  .main-content {
+    flex-grow: 1;
+  }
+  
